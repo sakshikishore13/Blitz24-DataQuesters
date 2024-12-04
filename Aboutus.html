@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superstition Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .superstitions {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .superstition {
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .superstition:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Superstition Game</h1>
+        <p>Click on a superstition to learn more!</p>
+    </header>
+    <main>
+        <div class="superstitions">
+            <div class="superstition" onclick="window.location.href='blackCat.html'">
+                <h2>Black Cat</h2>
+                <p>🐈‍⬛</p>
+            </div>
+            <div class="superstition" onclick="window.location.href='brokenMirror.html'">
+                <h2>Broken Mirror</h2>
+                <p>🪞</p>
+            </div>
+            <div class="superstition" onclick="window.location.href='luckyNumber.html'">
+                <h2>Lucky Number</h2>
+                <p>7️⃣</p>
+            </div>
+            <div class="superstition" onclick="window.location.href='cuttingNailsAtNight.html'">
+                <h2>Cutting Nails at Night</h2>
+                <p>✂️</p>
+            </div>
+            <div class="superstition" onclick="window.location.href='evilEye.html'">
+                <h2>Evil Eye</h2>
+                <p>👁️</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Superstition Game</p>
+    </footer>
+</body>
+</html>

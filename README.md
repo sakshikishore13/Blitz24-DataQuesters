@@ -1,1 +1,4 @@
-# Welcome to The Rational Quest, an interactive and engaging game designed to spread awareness about superstitions and blind beliefs while promoting critical thinking and rationality. This project aims to educate players in an entertaining way, encouraging them to question myths and traditions through gameplay
+### Hacket
+This is a Privacy card game to educate internet newbies about CyberSecurity in an interactive way.
+
+Go ahead and try the game: https://hacket.netlify.app/
